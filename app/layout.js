@@ -6,11 +6,15 @@ export default function RootLayout ({ children }) {
   return (
     <html>
       <head>
+        <meta name='author' content='CLG' />
+        <meta name='description' content='Esta página esta diseñada con fines educativos, el propósito es realizar el diseño de una página web sobre una idea de negocio ficticia' />
         <title>COFFEA</title>
       </head>
       <body>
         <Header />
-        {children}
+        <main>
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

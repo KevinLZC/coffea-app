@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from './Header.module.css'
+import styles from '../styles/Header.module.css'
 
 const links = [{
   label: 'Inicio',
@@ -13,6 +13,9 @@ const links = [{
 }, {
   label: 'Contacto',
   route: '/contacto'
+}, {
+  label: 'Colaboradores',
+  route: '/colaboradores'
 }]
 
 export function Header () {
@@ -20,7 +23,7 @@ export function Header () {
     <header className={styles.header}>
       <nav>
         <ul className={styles.nav}>
-          <li>COFFEA</li>
+          <li>COFFEA (Logo)</li>
           {links.map(({ label, route }) => (
             <li key={route}>
               <Link href={route}> {label} </Link>
