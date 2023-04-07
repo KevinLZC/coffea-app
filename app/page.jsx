@@ -8,8 +8,12 @@ import laptop from '../public/laptop.png'
 export default function HomePage () {
   return (
     <>
-      <h1>"Somos el combustible para crear"</h1>
-      <p>Sabemos que el sentirnos cómodos es lo más importante y cuando trabajamos es un factor crucial. Es por eso que en Coffea ofrecemos esta comodidad a nuestros clientes, brindandoles un espacio en el que puedan trabajar de manera eficiente y sin distracciones.</p>
+      <div>
+        <h1 className='text-9xl'>"Somos el combustible para crear"</h1>
+      </div>
+      <div>
+        <p>Sabemos que el sentirnos cómodos es lo más importante y cuando trabajamos es un factor crucial. Es por eso que en Coffea ofrecemos esta comodidad a nuestros clientes, brindandoles un espacio en el que puedan trabajar de manera eficiente y sin distracciones.</p>
+      </div>
       <Image src={home} alt='Vista general' />
       <p>Escoge una sala</p>
       <p>Espacio de trabajo</p>

@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import styles from '../styles/Header.module.css'
 
 const links = [{
   label: 'Inicio',
@@ -20,10 +19,9 @@ const links = [{
 
 export function Header () {
   return (
-    <header className={styles.header}>
+    <header className=''>
       <nav>
-        <ul className={styles.nav}>
-          <li>COFFEA (Logo)</li>
+        <ul className='flex gap-8 p-5 ml-96 pl-96'>
           {links.map(({ label, route }) => (
             <li key={route}>
               <Link href={route}> {label} </Link>
