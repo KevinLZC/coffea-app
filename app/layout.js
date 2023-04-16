@@ -13,7 +13,6 @@ export default function RootLayout ({ children }) {
       </head>
       <body>
         <Header />
-        <div className='border-solid border-zinc-400 border-b-2 my-0 mx-auto w-3/4 pt-2' />
         <main className='min-h-screen'>
           {children}
         </main>
