@@ -8,7 +8,7 @@ import laptop from '../public/laptop.png'
 export default function HomePage () {
   return (
     <>
-      <div>
+      <div className='mb-10'>
         <div className='flex'>
           <div className='mt-12 lg:w-[900px] md:w-[500px] w-[300px] lg:pl-56 md:pl-28 pl-10 sm:translate-x-8'>
             <span className='lg:text-[136px] md:text-7xl text-5xl text-left lg:translate-y-10 font-serif'>"Somos el combustible para crear"</span>

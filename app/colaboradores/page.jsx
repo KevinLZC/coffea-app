@@ -6,7 +6,7 @@ import User from '../../public/user.png'
 export default function Colaboradores () {
   return (
     <>
-      <div className='flex flex-col mb-4'>
+      <div className='flex flex-col mb-4 lg:mt-20'>
         <div className='lg:flex lg:mr-[450px] lg:ml-[450px] md:gap-10'>
           <div className='rounded-2xl min-w-[320px] mt-10 w-80 md:w-80 lg:w-80 flex flex-col items-center shadow-2xl mr-auto ml-auto'>
             <Image className='w-60 rounded-full' alt='Leonel' src={User} />
