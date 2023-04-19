@@ -6,7 +6,6 @@ Principalmente para su elaboración se utiliza:
 
 1. NextJS
 2. TailwindCSS
-3. Framer Motion
 
 Para la ejecución del programa correr el script.
 
