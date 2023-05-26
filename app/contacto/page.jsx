@@ -16,7 +16,7 @@ export default function ContactPage () {
               <Image className='rounded-2xl shadow-2xl' alt='areaIndividual' src={contacto} />
             </div>
             <div>
-              <div className='pt-10 pl-10 text-center'>
+              <div className='pt-10 lg:pl-10 text-center'>
                 <span className='text-4xl flex justify-center mb-5 md:text-5xl text-center'>¿En qué podemos ayudarte?</span>
                 <span className='text-xl flex justify-center text-center md:text-2xl'>En Coffea estamos abiertos a recibir tus comentarios, dudas y observaciones. Nos gusta asegurarnos de que la experiencia sea la mejor.</span>
                 <span className='text-4xl flex justify-center pt-12 pb-5 md:text-5xl lg:text-center'>Atención al cliente</span>
