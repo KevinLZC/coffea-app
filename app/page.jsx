@@ -16,11 +16,11 @@ export default function HomePage () {
           <Image className='w-32 h-32 sm:w-48 sm:h-48 md:w-60 md:h-60 lg:w-[450px] lg:h-[450px] rounded-full sm:rounded-full md:rounded-2xl lg:rounded-3xl' alt='Inicio' src={home} />
         </div>
         <div className='w-0 h-0 bg-gradient-to-b from-black to-gray-500 rounded-full border-solid border-white lg:border-[35px] md:border-[20px]' />
-        <div className='relative flex justify-center'>
-          <p className='text-base sm:text-lg font-sans text-center md:text-xl lg:text-3xl pt-10'>Sabemos que el sentirnos cómodos es lo más importante y cuando trabajamos es un factor crucial. Es por eso que en Coffea ofrecemos esta comodidad a nuestros clientes, brindandoles un espacio en el que puedan trabajar de manera eficiente y sin distracciones.</p>
-        </div>
         <div className='pt-12 text-center'>
           <span className='text-sm sm:text-base md:text-lg lg:text-2xl text-gray-400'>¿Por qué escogernos?</span>
+        </div>
+        <div className='relative flex justify-center'>
+          <p className='text-base sm:text-lg font-sans text-center md:text-xl lg:text-3xl pt-10'>Sabemos que el sentirnos cómodos es lo más importante y cuando trabajamos es un factor crucial. Es por eso que en Coffea ofrecemos esta comodidad a nuestros clientes, brindandoles un espacio en el que puedan trabajar de manera eficiente y sin distracciones.</p>
         </div>
         <div className='pt-12 flex justify-center items-center'>
           <span className='text-lg sm:text-2xl md:text-4xl lg:text-5xl font-sans'>Servicios incluidos</span>
