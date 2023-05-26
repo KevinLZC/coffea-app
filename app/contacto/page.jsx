@@ -16,13 +16,13 @@ export default function ContactPage () {
               <Image className='rounded-2xl shadow-2xl' alt='areaIndividual' src={contacto} />
             </div>
             <div>
-              <div className='pt-10 pl-10'>
+              <div className='pt-10 pl-10 text-center'>
                 <span className='text-4xl flex justify-center mb-5 md:text-5xl text-center'>¿En qué podemos ayudarte?</span>
                 <span className='text-xl flex justify-center text-center md:text-2xl'>En Coffea estamos abiertos a recibir tus comentarios, dudas y observaciones. Nos gusta asegurarnos de que la experiencia sea la mejor.</span>
                 <span className='text-4xl flex justify-center pt-12 pb-5 md:text-5xl lg:text-center'>Atención al cliente</span>
                 <span className='text-xl flex justify-center text-center md:text-2xl'>Te invitamos a contactarnos en nuestros medios de contacto, en los cuales puedes canalizar todas tus consultas, sugerencias o dudas en un horario  de Lunes a Sábado de 9:00 a.m a 4:00 p.m.</span>
               </div>
-              <div className='flex justify-center'>
+              <div className='lg:flex justify-center'>
                 <div className='flex flex-col items-center pt-8'>
                   <Image className='w-8 md:w-16' alt='telefono' src={telefono} />
                   <span className='pl-3 md:text-lg text-center'>+52-312-314-4631</span>
